@@ -1,2 +1,30 @@
-# docker-grafana-with-plugins
-Docker image for Grafana with pre-installed plugins
+# Docker image for Grafana with pre-installed plugins
+
+* [Grafana](https://grafana.com/)
+* [Grafana Plugins](https://grafana.com/grafana/plugins)
+
+## Image on Docker hub
+
+* Find images of this repo [Docker Hub](https://hub.docker.com/r/avitalique/grafana-with-plugins)
+
+* The **version number** is composed of two version numbers
+	* **X.X[.X]**-Y.Y is the version of the Grafana embedded in this docker image
+	* X.X[.X]-**Y.Y** is for this docker image itself
+
+#### Supported tags
+
+* Grafana 7.3
+	* `latest`, `7.3.7-1.0`
+
+
+## Pre-installed plugins
+
+plugin                              | version| description								| links
+------------------------------------| -------| -----------------------------------------| --------------------------
+`vertamedia-clickhouse-datasource` 	| 2.2.0	 | ClickHouse datasource for Grafana 4.6+	| [grafana.com/plugins](https://grafana.com/grafana/plugins)
+
+## Changelog
+
+### 7.3.7-1.0 (2021-01-28)
+
+Initial version: Grafana 7.3.7 and Clickhouse datasource by Vertamedia
