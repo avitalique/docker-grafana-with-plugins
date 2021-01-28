@@ -14,17 +14,21 @@
 #### Supported tags
 
 * Grafana 7.3
-	* `latest`, `7.3.7-1.0`
+	* `latest`, `7.3.7-1.1`
 
 
 ## Pre-installed plugins
 
 plugin                              | version| description								| links
 ------------------------------------| -------| -----------------------------------------| --------------------------
-`vertamedia-clickhouse-datasource` 	| 2.2.0	 | ClickHouse datasource for Grafana 4.6+	| [grafana.com/plugins](https://grafana.com/grafana/plugins)
+`vertamedia-clickhouse-datasource` 	| 2.2.0	 | ClickHouse datasource for Grafana 4.6+	| [grafana.com/plugins](https://grafana.com/grafana/plugins/vertamedia-clickhouse-datasource)
 
 ## Changelog
 
+### 7.3.7-1.1 (2021-01-28)
+
+Add Clickhouse datasource plugin by Vertamedia
+
 ### 7.3.7-1.0 (2021-01-28)
 
-Initial version: Grafana 7.3.7 and Clickhouse datasource by Vertamedia
+Grafana 7.3.7 with no plugins
