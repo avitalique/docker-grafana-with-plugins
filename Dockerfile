@@ -12,7 +12,7 @@ RUN mkdir -p "$GF_PATHS_PLUGINS" && \
 
 USER grafana
 
-ARG GF_INSTALL_PLUGINS="vertamedia-clickhouse-datasource"
+ARG GF_INSTALL_PLUGINS="vertamedia-clickhouse-datasource,grafana-piechart-panel"
 
 RUN if [ ! -z "${GF_INSTALL_PLUGINS}" ]; then \
     OLDIFS=$IFS; \

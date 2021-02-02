@@ -14,7 +14,8 @@
 #### Supported tags
 
 * Grafana 7.3
-	* `latest`, `7.3.7-1.1`
+	* `latest`, `7.3.7-1.2`
+	* `7.3.7-1.1`
 
 
 ## Pre-installed plugins
@@ -22,8 +23,13 @@
 plugin                              | version| description								| links
 ------------------------------------| -------| -----------------------------------------| --------------------------
 `vertamedia-clickhouse-datasource` 	| 2.2.0	 | ClickHouse datasource for Grafana 4.6+	| [grafana.com/plugins](https://grafana.com/grafana/plugins/vertamedia-clickhouse-datasource)
+`grafana-piechart-panel`			| 1.6.1  | Pie chart panel for Grafana 				| [grafana.com/plugins](https://grafana.com/grafana/plugins/grafana-piechart-panel)
 
 ## Changelog
+
+### 7.3.7-1.2 (2021-02-02)
+
+Add Pie chart panel by Grafana Labs 
 
 ### 7.3.7-1.1 (2021-01-28)
 
